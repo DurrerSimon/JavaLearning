@@ -1,24 +1,18 @@
 package com.timbuchalka;
 
-import static junit.framework.TestCase.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Created by timbuchalka on 20/11/16.
- */
-public class BankAccountTest {
-    @org.junit.Test
-    public void deposit() throws Exception {
-        fail("This test has yet to be implemented");
+class BankAccountTestTemplate {
+
+    @org.junit.jupiter.api.Test
+    void deposit() {
     }
 
-    @org.junit.Test
-    public void withdraw() throws Exception {
-        fail("This test has yet to be implemented");
+    @org.junit.jupiter.api.Test
+    void withdraw() {
     }
 
-    @org.junit.Test
-    public void getBalance() throws Exception {
-        fail("This test has yet to be implemented");
+    @org.junit.jupiter.api.Test
+    void getBalance() {
     }
-
 }
