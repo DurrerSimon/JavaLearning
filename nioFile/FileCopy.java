@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.io.IOException;
 
-public class FileCopyExample {
+public class FileCopy {
     public static void main(String[] args) {
         Path sourcePath = Paths.get("input.txt"); // Pfad der Quelldatei
         Path targetPath = Paths.get("numbered_output.txt"); // Pfad der Zieldatei
