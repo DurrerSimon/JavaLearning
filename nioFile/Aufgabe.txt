@@ -1,0 +1,8 @@
+Aufgabe: Erstelle ein Java-Programm, das eine vorhandene Textdatei öffnet und jede Zeile mit ihrer Zeilennummer voran versieht. Speichere das Ergebnis in einer neuen Datei.
+
+Anforderungen:
+
+Lies eine Datei namens input.txt.
+Füge vor jede Zeile die Zeilennummer ein, gefolgt von einem Doppelpunkt. Beispiel: 1: Erste Zeile
+Speichere die bearbeiteten Zeilen in einer neuen Datei namens numbered_output.txt.
+Behandle mögliche I/O-Exceptions entsprechend.
