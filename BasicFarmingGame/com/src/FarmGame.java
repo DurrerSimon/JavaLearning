@@ -19,7 +19,7 @@ public class FarmGame {
         userInterface.printWelcomeMessage();
         userInterface.printCommands();
         while (true) {
-            userInterface.printField(farmField.getFieldSize());
+            FarmField.printField(farmField.printField(););
             userInterface.printPlayerInfo(playerName, money);
             String command = userInterface.getCommand();
             if (command.equals("quit")) {
