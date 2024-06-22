@@ -1,8 +1,9 @@
+package Concurrency;
 interface Greeting {
     void greet();
 }
 
-public class Main {
+public class AnonymousClass {
     public static void main(String[] args) {
         // Erstellung einer anonymen Klasse, die das Greeting-Interface implementiert
         Greeting greeting = new Greeting() {
