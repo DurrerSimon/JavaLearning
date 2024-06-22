@@ -5,9 +5,6 @@ public class MainCachedThreadPool {
 
     public static void main (String[] args) {
 
-        // Get the number of available processors and set integer
-        int coreCount = Runtime.getRuntime().availableProcessors();
-
         // Create a new fixed thread pool with the number of available processors
         ExecutorService service = Executors.newCachedThreadPool();
 
